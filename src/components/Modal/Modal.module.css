@@ -1,0 +1,29 @@
+.backdrop {
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  bottom: 0;
+  display: grid;
+  justify-items: center;
+  left: 0;
+  padding: 16px;
+  cursor: pointer;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 1000;
+}
+
+.modal {
+  left: 50%;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  max-width: 768px;
+  overflow-y: auto;
+  padding: 16px;
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%) translateX(-50%);
+  width: 100%;
+  z-index: 1000;
+}
