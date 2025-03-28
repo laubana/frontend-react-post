@@ -1,4 +1,5 @@
 import { Form } from "react-router-dom";
+
 import styles from "./NewPost.module.css";
 
 const NewPostComponent = ({ onCancel }) => {

@@ -1,5 +1,6 @@
-import { Link } from "react-router-dom";
 import { MdPostAdd, MdMessage } from "react-icons/md";
+import { Link } from "react-router-dom";
+
 import styles from "./Header.module.css";
 
 const HeaderComponent = ({}) => {

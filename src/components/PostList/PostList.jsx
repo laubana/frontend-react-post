@@ -1,5 +1,7 @@
 import { Link } from "react-router-dom";
+
 import styles from "./PostList.module.css";
+
 import Post from "../Post";
 
 const PostListComponent = ({ posts }) => {

@@ -1,4 +1,5 @@
 import { useRef } from "react";
+
 import styles from "./Modal.module.css";
 
 const ModalComponent = ({ onClose, children }) => {
